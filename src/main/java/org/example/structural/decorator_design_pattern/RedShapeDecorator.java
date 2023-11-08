@@ -6,6 +6,7 @@ package org.example.structural.decorator_design_pattern;
  */
 public class RedShapeDecorator extends ShapeDecorator{
     public RedShapeDecorator(Shape decoratorShape) {
+        //calling most supper class constructor
         super(decoratorShape);
     }
     @Override
